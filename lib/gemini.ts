@@ -111,7 +111,7 @@ export async function explainScan(scan: ScanResult): Promise<string> {
     ],
     generationConfig: {
       temperature: 0.3,
-      maxOutputTokens: 1536,
+      maxOutputTokens: 4096,
     },
   });
 
